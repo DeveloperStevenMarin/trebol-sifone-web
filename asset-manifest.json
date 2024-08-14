@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/trebol-sifone-web/static/css/main.5f2430d1.css",
+    "main.css": "/trebol-sifone-web/static/css/main.412df15c.css",
     "main.js": "/trebol-sifone-web/static/js/main.e04cf608.js",
     "index.html": "/trebol-sifone-web/index.html",
-    "main.5f2430d1.css.map": "/trebol-sifone-web/static/css/main.5f2430d1.css.map",
+    "main.412df15c.css.map": "/trebol-sifone-web/static/css/main.412df15c.css.map",
     "main.e04cf608.js.map": "/trebol-sifone-web/static/js/main.e04cf608.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f2430d1.css",
+    "static/css/main.412df15c.css",
     "static/js/main.e04cf608.js"
   ]
 }
