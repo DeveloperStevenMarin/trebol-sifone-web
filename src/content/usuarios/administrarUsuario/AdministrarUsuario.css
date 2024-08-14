@@ -1,0 +1,82 @@
+.formulario-crear-usuario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.crear-usuario-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.form-group label {
+  display: flex;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.button-group .btn-content {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  width: 120px;
+  transition: background-color 0.3s;
+}
+
+.button-group .btn-save {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group .btn-save:hover {
+  background-color: var(--main-color-hover);
+}
+
+.button-group .btn-cancel {
+  background-color: var(--red-color-light);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group .btn-cancel:hover {
+  background-color: var(--red-color-light-hover);
+}
+
+.button-group .btn-exit {
+  background-color: #6c757d;
+  color: white;
+}
+
+.button-group .btn-exit:hover {
+  background-color: #5a6268;
+}

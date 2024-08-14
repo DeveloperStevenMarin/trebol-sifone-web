@@ -1,0 +1,128 @@
+/* Animación para el despliegue desde arriba */
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: max-content;
+  }
+}
+
+/* Animación para esconderse hacia arriba */
+@keyframes slideUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: max-content;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+    max-height: 0;
+  }
+}
+
+.table-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-in-out, opacity 1s ease-in-out;
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Asegura que la animación se mantenga en el estado final */
+}
+
+/* Animación para cuando la tabla esté visible */
+.table-container.open {
+  animation-name: slideDown;
+}
+
+/* Animación para cuando la tabla se oculte */
+.table-container.closing {
+  animation-name: slideUp;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-spacing: 0;
+  border-collapse: separate;
+  overflow: hidden;
+  border: 2px solid var(--main-color);
+}
+
+.table-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-in-out, opacity 1s ease-in-out;
+  opacity: 0;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Asegura que la animación se mantenga en el estado final */
+}
+
+
+
+
+.custom-table th {
+  background-color: var(--main-color);
+  color: #2f3c4f;
+  font-weight: bold;
+  min-width: 148px;
+  height: 40px;
+  text-align: center;
+}
+
+.custom-table th:last-child {
+  padding-right: 30px;
+}
+
+.custom-table td {
+  color: #2f3c4f;
+  font-weight: 600;
+  height: 40px;
+}
+
+.custom-table td:first-child {
+  padding-left: 20px;
+}
+
+.custom-table .td-checkPermisonUser {
+  text-align: center;
+}
+
+/* Zebra striping for table rows */
+.custom-table tr:nth-child(even) {
+  background-color: #f5f5f5;
+  height: 40px;
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: white;
+  height: 40px;
+}
+
+.custom-table .permisos-usuario-checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--icon-color);
+}
+
+.permisions-checkbox {
+  width: 18px;
+  padding: 100%;
+  height: 18px;
+  accent-color: var(--light-checkbox-color);
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+.tr-custom-table .td-checkbox-permisions {
+  text-align: center;
+}

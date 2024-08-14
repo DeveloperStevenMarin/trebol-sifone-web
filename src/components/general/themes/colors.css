@@ -1,0 +1,25 @@
+:root {
+  --light-background-color: linear-gradient(
+    130deg,
+    rgba(161, 232, 190, 1) 0%,
+    rgba(68, 105, 102, 1) 100%
+  );
+  --dark-background-color: linear-gradient(
+    130deg,
+    rgb(11, 206, 172) 0%,
+    rgba(68, 105, 102, 1) 100%
+  );
+
+  --main-color: rgb(7, 180, 148);
+  --main-color-hover: rgb(9, 193, 160);
+  --red-color-light: rgb(239, 79, 94);
+  --red-color-light-hover: rgb(238, 41, 60);
+  --gray-color: rgb(245, 245, 245);
+  --icon-color: rgb(39, 39, 39);
+  --cancel-color: #4caf50;
+  --light-text-color: #2f3c4f;
+  --general-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --light-checkbox-color: #2f3c4f;
+  --neutral-color: #f5f5f5;
+  --neutral-color-hover: #e0e0e0;
+}

@@ -1,0 +1,100 @@
+.custom-btn {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: var(--general-box-shadow);
+}
+.custom-btn.left {
+  justify-content: flex-start;
+}
+
+.custom-btn .right {
+  justify-content: flex-end;
+}
+
+.custom-btn.s {
+  width: 120px;
+}
+
+.custom-btn.m {
+  width: 150px;
+}
+
+.custom-btn.l {
+  width: 200px;
+}
+.custom-btn.xl {
+  height: 40px;
+  width: 250px;
+}
+
+.custom-btn.negative {
+  background-color: var(--red-color-light);
+}
+
+.custom-btn.negative:hover {
+  background-color: var(--red-color-light-hover);
+}
+
+.custom-btn.confirm {
+  background-color: var(--main-color);
+}
+
+.custom-btn.confirm:hover {
+  background-color: var(--main-color-hover);
+}
+.custom-btn.neutral {
+  color: var(--light-text-color);
+}
+
+.custom-btn.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--light-text-color);
+}
+.custom-btn.dropdown span {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  transition: transform 0.3s ease; /* Transición suave al rotar el icono */
+}
+
+.custom-btn.neutral:hover {
+  background-color: var(--neutral-color-hover);
+}
+.custom-btn.open:hover {
+  background-color: var(
+    --main-color-hover
+  ); /* Cambia el color de fondo cuando esté abierto */
+}
+.custom-btn.open {
+  background-color: var(
+    --main-color
+  ); /* Cambia el color de fondo cuando esté abierto */
+  color: white; /* Asegura que el texto se mantenga visible */
+}
+
+.custom-btn.open span {
+  transform: rotate(90deg); /* Rota el ícono cuando esté abierto */
+}
+
+.custom-btn .dropdown span.open {
+  transform: rotate(
+    90deg
+  ); /* Rota el ícono en el dropdown cuando esté abierto */
+}

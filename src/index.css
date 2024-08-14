@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: var(--light-background-color) no-repeat center center fixed;
+ }
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {

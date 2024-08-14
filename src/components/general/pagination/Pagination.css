@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.items-per-page {
+  display: flex;
+  align-items: center;
+}
+.items-per-page select{
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.page-controls {
+  display: flex;
+  align-items: center;
+}
+
+.page-controls button {
+  margin: 0 5px;
+  border: 0;
+  padding: 5px;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 4px;
+}

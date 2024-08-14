@@ -1,0 +1,77 @@
+.list-user-permision {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 590px;
+  padding: 0;
+  margin: 0;
+}
+
+.user-permision-item {
+  margin-bottom: 10px;
+}
+
+.user-permissions {
+  padding: 20px;
+  background-color: white;
+  border-radius: 22px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 97%;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
+}
+
+.user-permissions.enter {
+  opacity: 1;
+  animation-name: openAnimation;
+}
+
+.user-permissions.exit {
+  opacity: 0;
+  animation-name: closeAnimation;
+}
+
+.user-permision-details h2 {
+  margin-top: 0;
+  color: var(--light-text-color);
+}
+
+.user-permision-details {
+  min-height: 600px;
+}
+
+.user-permissions-btn-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@keyframes closeAnimation {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes openAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

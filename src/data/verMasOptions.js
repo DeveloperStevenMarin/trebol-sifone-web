@@ -1,0 +1,68 @@
+export const verMasOptions = {
+  title: 'Ver más',
+  submenu: {
+    title: 'Ver más',
+    items: [
+      {
+        label: 'Usuarios',
+        options: [
+          { label: 'Administrar Usuarios' },
+          { label: 'Log de accesos' },
+          { label: 'Informe de permisos de usuarios' },
+          { label: 'Limpiar Log de usuarios' },
+          { label: 'Informe de Transacciones Usuario' },
+        ],
+      },
+      {
+        label: 'Mantenimiento',
+        options: [
+          { label: 'Configuracion' },
+          { label: 'Act. Consecutivos' },
+          { label: 'Actualizar DTF' },
+          { label: 'Archivo SIGSES' },
+          { label: 'Interfaz DIAN' },
+          { label: 'Interfaz Tesor. Distrital' },
+          { label: 'Arreglos Especiales' },
+          { label: 'Importar Saldos Iniciales' },
+          { label: 'Migrar BD SQL SERVER' },
+          { label: 'Asistencia Remota' },
+          { label: 'Actualizar BD' },
+          { label: 'Sorteos' },
+        ],
+      },
+      {
+        label: 'Activos fijos',
+        options: [
+          { label: 'Actualizacion Activos Fijos' },
+          { label: 'Grupos Activos Fijos' },
+          { label: 'Causar Depreciación Activos Fijos' },
+          { label: 'Adiciones/Deterioros Activos Fijos' },
+          { label: 'Plan Depreciación' },
+          { label: 'Informe de Activos' },
+        ],
+      },
+      {
+        label: 'Ayuda en línea',
+        options: [
+          { label: 'Ayuda Administrativo' },
+          { label: 'Ayuda Contabilidad' },
+          { label: 'Ayuda Tesoreria y caja' },
+          { label: 'Ayuda Ahorros y CDATS' },
+          { label: 'Ayuda Inventarios' },
+          { label: 'Ayuda Gestión documental' },
+          { label: 'Ayuda Nómina empleados' },
+          { label: 'Ayuda Informes administrativos' },
+          { label: 'Ayuda Informes ahorros y CDATS' },
+          { label: 'Ayuda Informes inventarios' },
+          { label: 'Ayuda Informes estadisticos' },
+          { label: 'Ayuda Informes nómina empleados' },
+          { label: 'Ayuda UIAF' },
+          { label: 'Ayuda Usuarios' },
+          { label: 'Ayuda Mantenimiento' },
+          { label: 'Ayuda Activos fijos' },
+          { label: 'Actualizar ayudas' },
+        ],
+      },
+    ],
+  },
+};

@@ -1,0 +1,63 @@
+.permisos-usuario-button,
+.accordion-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #2f3c4f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.permisos-usuario-button:hover,
+.accordion-summary:hover {
+  background-color: #e0e0e0;
+}
+
+.permisos-usuario-button span,
+.accordion-summary span {
+  margin-left: auto;
+  transition: transform 0.2s;
+  font-size: 18px;
+}
+
+.permisos-usuario-button span.open,
+.accordion-summary span.open {
+  transform: rotate(90deg);
+}
+
+.contenedor-btn-permisos-check-box {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+
+  margin-bottom: 10px;
+}
+
+.label-enabled-checkbox {
+  color: var(--text-color);
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 25px;
+}
+.user-enabled-checkbox {
+  margin-left: 10px;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--light-checkbox-color);
+  border-radius: 15px;
+}
+.container-user-permision-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
